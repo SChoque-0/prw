@@ -8,17 +8,24 @@
            tex}
         </style>  </head>
     <body>
-        <form name="formulario1" action="url" method="metodo">
-            <strong><i><legend>Formulário De Cadastro</legend></i></strong>
+        <form name="form1" action="url" method="post">
+           <fieldset> <strong><i><legend>Formulário De Cadastro</legend></i></strong>
            
             
                 <table> Cadastro do Usuário
-                    <tr><td><label>Nome: <input type="text" id="User"
-                        name="Nome"/></label></td></tr>
+                    <tr>
+                        <td><label>Nome:</label></td> 
+                       <td><input type="text" id="User"
+                        name="Nome_text"/></td> 
+                                            
+                    </tr>
                 
-                <tr><td><label>Senha: <input type="password" id="User"
-                name="Senha"/></label></td></tr>
+                     <tr> <td><label>Senha: </label></td>
+                       <td><input type="password" id="User"
+                        name="Senha"/></td> 
+                     </tr>
                 </table>
+            </fieldset>
 
         </form>
 
