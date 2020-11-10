@@ -17,16 +17,32 @@
                 <table>
                     <tr>
                         <td><label>Nome:</label></td> 
-                       <td><input type="text" id="User"
-                        name="Nome_text"/></td> 
+                       <td><input type="text" id="Nome_txt"
+                        name="Nome_text" maxlength="35" size="35"/></td> 
                                             
                     </tr>
                      <tr> <td><label>Senha: </label></td>
-                       <td><input type="password" id="User"
-                        name="Senha"/></td> 
-                        
+                       <td><input type="password"
+                        name="Senha_pwd" id="Senha_id"/></td> 
+
                      </tr>
-                </table>
+                    </table>
+                <table>
+                <h2>Qual seu gênero de nascença ?</h2>
+                <tr><td> <input type="checkbox" name="Masc_ck"
+                value="Mascullino"></td>
+                <td>
+                    <label for="fem_ck">Masculino</label>
+                </td>
+            </tr>
+            <tr> <td> <input type="checkbox" name="fem_ck"
+                    value="feminino" id="fem_ck "></td>
+                    <td> <label for="fem_ck">Feminino</label></td>
+                </tr>
+            </table>
+            
+            
+
             </fieldset>
 
         </form>
